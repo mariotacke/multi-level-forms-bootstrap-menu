@@ -5,22 +5,23 @@ Runs in IE 8+, Chrome, and Firefox
 
 ## Usage
 First, register your assembly and include the CSS file in your project:
-
-    <%@ Register tagPrefix="bootmenu" assembly="MultiLevelFormsBootstrapMenu" namespace="MultiLevelFormsBootstrapMenu" %>
-    ...
-    <head>
-      ...
-      <link href="multilevelformsbootstrapmenu.css" rel="stylesheet" />
-    </head>
-    ...
+```html
+<%@ Register tagPrefix="bootmenu" assembly="MultiLevelFormsBootstrapMenu" namespace="MultiLevelFormsBootstrapMenu" %>
+...
+<head>
+  ...
+  <link href="multilevelformsbootstrapmenu.css" rel="stylesheet" />
+</head>
+...
+```
 Then, create or modify your existing `Menu` control
-
-    <asp:Menu runat="server" DataSourceID="siteMap"></asp:Menu>
-
+```html    
+<asp:Menu runat="server" DataSourceID="siteMap"></asp:Menu>
+```
 becomes
-
-    <bootmenu:BootstrapMenu runat="server" DataSourceID="siteMap"></bootmenu:BootstrapMenu>
-    
+```html
+<bootmenu:BootstrapMenu runat="server" DataSourceID="siteMap"></bootmenu:BootstrapMenu>
+```    
 ## Dependencies
 
 - .NET Framework 4.5 
