@@ -3,6 +3,8 @@ Multi-Level Forms Bootstrap Menu is here to bring the beauty of Bootstrap to ASP
 
 Runs in IE 8+, Chrome, and Firefox
 
+Based on the work of [Jeremy Knight](jeremyknight.wordpress.com)'s [FormsBootstrapMenu](https://codelibrary.codeplex.com/SourceControl/latest#Main/Source/DL.Core.Web/Controls/BootstrapMenu.cs)
+
 ## Usage
 First, register your assembly and include the CSS file in your project:
 ```html
